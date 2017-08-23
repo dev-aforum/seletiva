@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Akrobat';
+  src: url('fonts/Akrobat-Light.otf');
+  font-weight:lighter;
+}
+
+@font-face {
+  font-family: 'Akrobat';
+  src: url('fonts/Akrobat-Regular.otf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Akrobat';
+  src: url('fonts/Akrobat-Bold.otf');
+  font-weight: bold;
+}
+//
+// @font-face {
+//   font-family: 'Akrobat';
+//   src: url('fonts/Akrobat-ExtraBold.otf');
+//   font-weight: bolder;
+// }
+
+@font-face {
+  font-family: 'YesevaOne';
+  src: url('styles/fonts/YesevaOne-Regular.ttf');
+}
+
+
+
+.subtitle {
+
+  font-family: 'Akrobat';
+  text-transform: uppercase;
+  font-size: 6em;
+  @media screen and (max-width: 700px){
+    font-size: 6.5em;
+  }
+}
+
+.subtitle2 {
+  font-family: 'Akrobat';
+  text-transform: uppercase;
+  font-size: 4em;
+  @media screen and (max-width: 700px){
+    font-size: 4.5em;
+  }
+}
+
+.subtitle3 {
+  font-family: 'Akrobat';
+  font-size: 3em;
+  @media screen and (max-width: 700px){
+    font-size: 3.5em;
+  }
+}
+
+.subtitle4 {
+  font-family: 'Akrobat';
+  text-transform: uppercase;
+  font-size: 2.5em;
+  @media screen and (max-width: 700px){
+    font-size: 3em;
+  }
+}
+
+
+
+p, .text{
+  padding: 1% 0px;
+  font-family: 'Akrobat', sans-serif;
+  font-size: 2em;
+  line-height: 1.5em;
+  @media screen and (max-width: 700px){
+    font-size: 2.5em;
+
+
+  }
+}
+
+.legenda {
+  font-size: 1em;
+  @media screen and (max-width: 700px){
+    font-size: 1.5em;
+  }
+}
+
+.light{
+  font-weight: lighter;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bolder{
+  font-weight: bolder;
+}
+
+
+.algn-right{
+  text-align: right;
+}
+
+.algn-center {
+  text-align: center;
+}
