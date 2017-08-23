@@ -22,11 +22,13 @@
     <script src="assets/jquery/jquery.js" charset="utf-8"></script>
     <script src="assets/jquery/migrate.js" charset="utf-8"></script>
     <script src="assets/waypoints/lib/noframework.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.4/js.cookie.min.js" charset="utf-8"></script>
 
     <script src="assets/FlowType.JS/flowtype.js" charset="utf-8"></script>
     <script src="assets/jnotify/lib/jquery.jnotify.js" charset="utf-8"></script>
     <script src="assets\masked\masked.js" charset="utf-8"></script>
     <script src="js/functions.js" charset="utf-8"></script>
+
 
 
     <!-- google tag manager  -->

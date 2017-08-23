@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     $("#form_inscription_celphone").mask("(99) 9999 - 9999?9");
     $("#form_inscription_telephone").mask("(99) 9999 - 9999?9");
 });
@@ -52,26 +53,70 @@ function enviarForm(data){
     //var url = 'http://intranet.aforum.com.br/homologa/cadastroScouterSeletiva/';
     //Produção
     var url = 'https://intranet.aforum.com.br/cadastroScouterSeletiva/';
-    $.ajax({
-        type: "POST",
-        url: url,
-        processData: false,
-        contentType: false,
-        data: data,
-        async: false,
-        dataType: 'json',
-        success: function (data) {
-            if(data.sucesso == 0){
 
-                msgSucesso(data.mensagem,1000);
-                setTimeout(function(){
-                  location = "sucesso.html";
-                },2000);
+    //se o cookie de nome ainda não estiver definido
+    if ( Cookies.get("name") === undefined ) {
+
+      Cookies.set( "name" , $("[name='user_name']").val() );
+
+      $.ajax({
+          type: "POST",
+          url: url,
+          processData: false,
+          contentType: false,
+          data: data,
+          async: false,
+          dataType: 'json',
+          success: function (data) {
+              if(data.sucesso == 0){
+
+                  msgSucesso(data.mensagem,1000);
+                  setTimeout(function(){
+                    location = "sucesso.html";
+                  },2000);
 
 
-            }else{
-                msgErro(data.mensagem,1000);
+              }else{
+                  msgErro(data.mensagem,1000);
+              }
+          }
+      });
+
+
+
+    } else {
+
+      if( Cookies.get("name") === $("[name='user_name']").val() ){
+
+        alert("O cadastro de " + $("[name='user_name']").val() + " já foi realizado" );
+
+      } else {
+
+        Cookies.set( "name" , $("[name='user_name']").val() );
+
+        $.ajax({
+            type: "POST",
+            url: url,
+            processData: false,
+            contentType: false,
+            data: data,
+            async: false,
+            dataType: 'json',
+            success: function (data) {
+                if(data.sucesso == 0){
+
+                    msgSucesso(data.mensagem,1000);
+                    setTimeout(function(){
+                      location = "sucesso.html";
+                    },2000);
+
+
+                }else{
+                    msgErro(data.mensagem,1000);
+                }
             }
-        }
-    });
+        });
+
+      }
+    }
 }
