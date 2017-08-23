@@ -43,7 +43,7 @@ A primeira etapa da seletiva consiste na real busca de modelos pela cidade por i
 
             <div class="col-lg-8">
               <p class="text">
-              No dia do evento, essas pessoas previamente selecionados participarão de uma breve palestra, onde será detalhado os procedimentos da gestão de carreira, procedimentos de agenciamento e avaliação individual de cada pessoa, completando assim a segunda etapa do evento. O atendimento para crianças começa às 10 horas e o para adolescentes e adultos às 14.</p>
+              No dia do evento, essas pessoas previamente selecionados participarão de uma breve palestra, onde será detalhado os procedimentos da gestão de carreira, procedimentos de agenciamento e avaliação individual de cada pessoa, completando assim a segunda etapa do evento.              </p>
             </div>
 
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">

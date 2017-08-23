@@ -1,10 +1,10 @@
 <header>
   <div class="row" id="headerRow">
     <div id="headerBg">
-      <div class="headerBg-skew col-lg-3 col-md-3 col-sm-3 col-xs-3 animated fadeIn"><img  id="headerBg-skew-img_1"src="http://res.cloudinary.com/deemlslu0/image/upload/v1502400480/headerBg_1_dl11ui.jpg" alt=""></div>
-      <div class="headerBg-skew col-lg-3 col-md-3 col-sm-3 col-xs-3 animated fadeIn"><img id="headerBg-skew-img_2"src="http://res.cloudinary.com/deemlslu0/image/upload/v1502400480/headerBg_2_o44c4n.jpg" alt=""></div>
-      <div class="headerBg-skew col-lg-3 col-md-3 col-sm-3 col-xs-3 animated fadeIn"><img id="headerBg-skew-img_3"src="http://res.cloudinary.com/deemlslu0/image/upload/v1502400480/headerBg_3_xbppnw.jpg" alt=""></div>
-      <div class="headerBg-skew col-lg-3 col-md-3 col-sm-3 col-xs-3 animated fadeIn"><img id="headerBg-skew-img_4"src="http://res.cloudinary.com/deemlslu0/image/upload/v1502400481/headerBg_4_r9yqgf.jpg" alt=""></div>
+      <div class="headerBg-skew col-lg-3 col-md-3 col-sm-3 col-xs-3 animated fadeIn"><img  id="headerBg-skew-img_1"src="http://res.cloudinary.com/deemlslu0/image/upload/v1503079796/headerBg_31_lf5qco.jpg" alt=""></div>
+      <div class="headerBg-skew col-lg-3 col-md-3 col-sm-3 col-xs-3 animated fadeIn"><img id="headerBg-skew-img_2"src="http://res.cloudinary.com/deemlslu0/image/upload/v1503079796/headerBg_32_vjtw3v.jpg" alt=""></div>
+      <div class="headerBg-skew col-lg-3 col-md-3 col-sm-3 col-xs-3 animated fadeIn"><img id="headerBg-skew-img_3"src="http://res.cloudinary.com/deemlslu0/image/upload/v1503079796/headerBg_33_jmgxii.jpg" alt=""></div>
+      <div class="headerBg-skew col-lg-3 col-md-3 col-sm-3 col-xs-3 animated fadeIn"><img id="headerBg-skew-img_4"src="http://res.cloudinary.com/deemlslu0/image/upload/v1503079796/headerBg_34_e798jw.jpg" alt=""></div>
     </div>
   </div><!-- end of row -->
 </header>

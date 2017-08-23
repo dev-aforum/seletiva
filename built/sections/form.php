@@ -14,10 +14,9 @@
 
           <div class="form_upload_img_imagePreviewContainer">
             <label  class="form_fakeButton form_upload_img_label text" for="form_inscription_imgup1" id="form_upload_button_fakeButton1">Adcionar foto</label>
-            <input class="form_upload" type="file" name="photo" id="form_inscription_imgup1" alt="Foto de corpo">
+            <input class="form_upload required" type="file" name="photo" id="form_inscription_imgup1" alt="Foto de corpo">
             <div class="form_upload_img_imagePreview" id="form_inscription_imgPreview1"></div>
           </div>
-
           <!-- <div class="form_upload_img_imagePreviewContainer">
             <label class="form_upload_img_label form_fakeButton" for="form_inscription_imgup2" id="form_upload_button_fakeButton2">Adcionar foto de corpo</label>
             <input data-validation="required" class="form_upload" type="file" name="photo_2" id="form_inscription_imgup2" alt="Foto de corpo">
@@ -36,7 +35,7 @@
             <input data-validation="email" type="text" class="required" name="email" id="form_inscription_email" placeholder="Email">
             <input type="text" name="telephone" class="required" id="form_inscription_telephone" placeholder="Telefone com DDD">
             <input type="text" name="celphone"  class="required" id="form_inscription_celphone" placeholder="Celular com DDD" >
-            <select name="state"  id="form_inscription_state" class="select2  box_sel_d">
+            <select name="state"  id="form_inscription_state" class="select2 required box_sel_d">
               <option value ="" >Estado</option>
               <option value="Acre"> Acre </option>
               <option value="Alagoas"> Alagoas </option>
@@ -66,9 +65,9 @@
               <option value="Sergipe"> Sergipe	</option>
               <option value="Tocatins"> Tocantins  </option>
             </select>
-            <input data-validation="required" type="text" name="city"  placeholder="Cidade">
-            <input data-validation="required" type="text" name="district"  placeholder="Bairro">
-            <input data-validation="required" type="text" name="adress"   placeholder="Endereço">
+            <input data-validation="required" type="text" name="city"  class="required" placeholder="Cidade">
+            <input data-validation="required" type="text" name="district"   class="required" placeholder="Bairro">
+            <input data-validation="required" type="text" name="adress"   class="required" placeholder="Endereço">
             <select id="form_inscription_age" name="age" placeholder="Idade"  class="required box_sel_d" >
               <option value ="">Idade</option>
             </select>
@@ -83,7 +82,7 @@
           </fieldset>
 
             <input type="hidden" id="indicacao" name="indicacao" value="8"/>
-            <input type="hidden" id="numero_unidade" name="numero_unidade" value="7"/>
+            <input type="hidden" id="numero_unidade" name="numero_unidade" value="7"/> 
 
         <button id="btn-sm-scouter" name="button" class="subtitle3 btn-sm" onclick="_gaq.push([‘_trackEvent’, ‘Seletiva’, ‘clique’, ‘Joinville’, true]);">Enviar</button>
 
