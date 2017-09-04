@@ -22,10 +22,10 @@
             </div>
 
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-              <h2 class="subtitle4">03 de Setembro</h2><br/>
-              <h3 class="subtitle4" style="font-size:2em;">Local: ESPAÇO BUENA  </h3><br/>
-              <h3 class="subtitle4" style="font-size:2em;">R. Domingos Rodrigues da Nova, 109 - Centro, Jaraguá do Sul</h3><br/>
-              <a href="#inscricao" class="fakeButton subtitle4">Inscreva-se Já</a>
+              <h2 class="subtitle4">Em breve novo local e data</h2><br/>
+              <!-- <h3 class="subtitle4" style="font-size:2em;">Local: ESPAÇO BUENA  </h3><br/> -->
+              <!-- <h3 class="subtitle4" style="font-size:2em;">R. Domingos Rodrigues da Nova, 109 - Centro, Jaraguá do Sul</h3><br/> -->
+              <!-- <a href="#inscricao" class="fakeButton subtitle4">Inscreva-se Já</a> -->
             </div>
 
           </div>
