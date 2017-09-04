@@ -11,10 +11,10 @@
           </tr>
 
           <!-- celular -->
-          <tr>
+          <!-- <tr>
             <td><img src="img/celular.png" alt=""></td>
             <td><p class="subtitle4">(47) 99908.0084</p></td>
-          </tr>
+          </tr> -->
 
           <!-- email -->
           <tr>
