@@ -16,19 +16,15 @@
             </div>
           </div>
 
-
           <div class="row">
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
               <img src="img/1aetapa.png" id="imgEtapa-1" alt="" >
             </div>
             <div class="col-lg-8">
               <p class="text">
-A primeira etapa da seletiva consiste na real busca de modelos pela cidade por intermédio de caça talentos que estarão frequentando os principais pontos da região observandos pessoas e selecionando as quais poderão ser possíveis modelos. Também serão avaliadas as pessoas que se  <a href="#inscricao">inscreverem aqui</a>.</p>
+              A primeira etapa da seletiva consiste na real busca de modelos pela cidade por intermédio de caça talentos que estarão frequentando os principais pontos da região observandos pessoas e selecionando as quais poderão ser possíveis modelos. Também serão avaliadas as pessoas que se  <a href="#inscricao">inscreverem aqui</a>.</p>
             </div>
-
           </div>
-
-
 
           <!-- 2a etapa -->
           <div class="row">
@@ -61,7 +57,7 @@ A primeira etapa da seletiva consiste na real busca de modelos pela cidade por i
             <div class="col-lg-8">
             <p  id="title-Etapa-3" class="subtitle3 imgContainer" >3<sup style="font-size:0.5em;">a</sup> etapa </p>
               <p class="text">
-                Os avaliados serão direcionados a uma última etapa de avaliação individual com os Diretores de Casting, no <span class="bold">Kayrós Hotel</span> com data e hora previamente marcada. Na ocasião os participantes receberão as orientações finais acerca da carreira, além do agendamento das fotos e curso.
+                Os avaliados serão direcionados a uma última etapa de avaliação individual com os Diretores de Casting, na semana seguinte do evento com data e hora previamente marcada. Na ocasião os participantes receberão as orientações finais acerca da carreira, além do agendamento das fotos e curso.
              </p>
             </div>
 

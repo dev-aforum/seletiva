@@ -288,7 +288,7 @@ $(document).ready(function(){
 $(window).resize(function(){
 
   var imgHeightResize = $('#seletivaJoin img').height();
-  var imgTopResize = 0 - (imgHeightResize/100)*58;
+  var imgTopResize = 0 - (imgHeightResize/100)*66;
   $('#seletivaJoin img').css({'top' : imgTopResize});
 
    var imgHeight2Resize = $('.profile img').height();
@@ -318,7 +318,7 @@ $(window).resize(function(){
 function reposition (){
   console.log('indeise');
   var imgHeightResize = $('#seletivaJoin img').height();
-  var imgTopResize = 0 - ((imgHeightResize/100)*58);
+  var imgTopResize = 0 - ((imgHeightResize/100)*66);
   $('#seletivaJoin img').css({'top' : imgTopResize});
 
    var imgHeight2Resize = $('.profile img').height();

@@ -1410,22 +1410,45 @@ header {
     flex-flow: row wrap;
     justify-content: center;
     flex-grow: 2;
-    .card{
-      margin-bottom: 4%;
-      @media screen and (max-width: 700px){
-        margin-bottom: 0%!important;
-        margin-top: 0%!important;
+    &#joinville{
+      .card{
+        margin-bottom: 4%;
+        @media screen and (max-width: 700px){
+          margin-bottom: 0%!important;
+          margin-top: 0%!important;
+        }
+        padding: 2%;
+        box-shadow: none;
+        background-color: $yellow-weak;
+        &:nth-child(1),&:nth-child(3){
+          background-color: $pink;
+          color: $white;
+        }
+        span{
+          font-size: 1.5em!important;
+          text-transform: none!important;
+        }
       }
-      padding: 2%;
-      box-shadow: none;
-      background-color: $yellow-weak;
-      &:nth-child(1),&:nth-child(4),&:nth-child(5){
-        background-color: $pink;
-        color: $white;
-      }
-      span{
-        font-size: 1.5em!important;
-        text-transform: none!important;
+    }
+
+    &#jaragua{
+      .card{
+        margin-bottom: 4%;
+        @media screen and (max-width: 700px){
+          margin-bottom: 0%!important;
+          margin-top: 0%!important;
+        }
+        padding: 2%;
+        box-shadow: none;
+        background-color: $yellow-weak;
+        &:nth-child(1),&:nth-child(3),&:nth-child(5){
+          background-color: $pink;
+          color: $white;
+        }
+        span{
+          font-size: 1.5em!important;
+          text-transform: none!important;
+        }
       }
     }
   }

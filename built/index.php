@@ -14,10 +14,10 @@
 <?php require_once("sections/estaForum.php") ?>
 
 <!-- seletiva -->
-<?php // require_once("sections/seletivaJoin.php") ?>
+<?php require_once("sections/seletivaJoin.php") ?>
 
 <!-- comoFunciona -->
-<?php // require_once("sections/comoFunciona.php")  ?>
+<?php require_once("sections/comoFunciona.php")  ?>
 
 <!-- descobertas -->
 <?php require_once("sections/descobertas.php") ?>
@@ -47,7 +47,7 @@
 <?php require_once("sections/eventos.php") ?>
 
 <!-- formulario -->
-<?php // require_once("sections/form.php") ?>
+<?php require_once("sections/form.php") ?>
 
 <!-- dados de contato -->
 <?php require_once("sections/contato.php") ?>

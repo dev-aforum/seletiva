@@ -8,7 +8,7 @@
 
     <div class="row">
       <div class="container">
-        <p class="text white">Para o sucesso da seletiva, a Forum está levando o seu time para Jaraguá do Sul. A equipe é formada pelos melhores bookers, diretores de casting e scoulters, especializados na busca de novos talentos, para o casting da melhor agencia do sul do país. </p>
+        <p class="text white">Para o sucesso da seletiva, a Forum está levando o seu time para São Bento do Sul. A equipe é formada pelos melhores bookers, diretores de casting e scoulters, especializados na busca de novos talentos, para o casting da melhor agencia do sul do país. </p>
         <button id="showProfile" class="button subtitle4 btn-large">Conheça os especialistas</button>
       </div>
     </div>

@@ -82,7 +82,7 @@
           </fieldset>
 
             <input type="hidden" id="indicacao" name="indicacao" value="8"/>
-            <input type="hidden" id="numero_unidade" name="numero_unidade" value="7"/> 
+            <input type="hidden" id="numero_unidade" name="numero_unidade" value="8"/> 
 
         <button id="btn-sm-scouter" name="button" class="subtitle3 btn-sm" onclick="_gaq.push([‘_trackEvent’, ‘Seletiva’, ‘clique’, ‘Joinville’, true]);">Enviar</button>
 

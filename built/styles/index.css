@@ -1396,19 +1396,34 @@ header {
   flex-flow: row wrap;
   justify-content: center;
   flex-grow: 2; }
-  #eventos .row .card {
+  #eventos .row#joinville .card {
     margin-bottom: 4%;
     padding: 2%;
     box-shadow: none;
     background-color: #FFECBB; }
     @media screen and (max-width: 700px) {
-      #eventos .row .card {
+      #eventos .row#joinville .card {
         margin-bottom: 0% !important;
         margin-top: 0% !important; } }
-    #eventos .row .card:nth-child(1), #eventos .row .card:nth-child(4), #eventos .row .card:nth-child(5) {
+    #eventos .row#joinville .card:nth-child(1), #eventos .row#joinville .card:nth-child(3) {
       background-color: #A65265;
       color: #f3f3f4; }
-    #eventos .row .card span {
+    #eventos .row#joinville .card span {
+      font-size: 1.5em !important;
+      text-transform: none !important; }
+  #eventos .row#jaragua .card {
+    margin-bottom: 4%;
+    padding: 2%;
+    box-shadow: none;
+    background-color: #FFECBB; }
+    @media screen and (max-width: 700px) {
+      #eventos .row#jaragua .card {
+        margin-bottom: 0% !important;
+        margin-top: 0% !important; } }
+    #eventos .row#jaragua .card:nth-child(1), #eventos .row#jaragua .card:nth-child(3), #eventos .row#jaragua .card:nth-child(5) {
+      background-color: #A65265;
+      color: #f3f3f4; }
+    #eventos .row#jaragua .card span {
       font-size: 1.5em !important;
       text-transform: none !important; }
 
