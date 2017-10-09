@@ -31,8 +31,11 @@ $('#btn-sm-scouter').click(function(e){
             if (!valida){
                 return false;
             }else{
+                $(".loading-animation").removeClass('hide');
                 var data = new FormData($("form[name=form_inscription]")[0]);
-                enviarForm(data);
+                setTimeout(function(){
+                    enviarForm(data);
+                },1000)
             };
     });
 
@@ -58,25 +61,25 @@ function enviarForm(data){
     if ( Cookies.get("name") === undefined ) {
 
       Cookies.set( "name" , $("[name='user_name']").val() );
-
+    //   $(".loading-animation").show();
       $.ajax({
           type: "POST",
           url: url,
           processData: false,
           contentType: false,
           data: data,
-          async: false,
+        //   async: false,
           dataType: 'json',
           success: function (data) {
               if(data.sucesso == 0){
-
+                  $(".loading-animation").addClass('hide');
                   msgSucesso(data.mensagem,1000);
                   setTimeout(function(){
                     location = "sucesso.html";
                   },2000);
 
-
               }else{
+                  $(".loading-animation").addClass('hide');
                   msgErro(data.mensagem,1000);
               }
           }
@@ -89,22 +92,23 @@ function enviarForm(data){
       if( Cookies.get("name") === $("[name='user_name']").val() ){
 
         alert("O cadastro de " + $("[name='user_name']").val() + " já foi realizado" );
+        $(".loading-animation").addClass('hide');
 
       } else {
 
         Cookies.set( "name" , $("[name='user_name']").val() );
-
+        // $(".loading-animation").show();
         $.ajax({
             type: "POST",
             url: url,
             processData: false,
             contentType: false,
             data: data,
-            async: false,
+            // async: false,
             dataType: 'json',
             success: function (data) {
                 if(data.sucesso == 0){
-
+                    $(".loading-animation").addClass('hide');
                     msgSucesso(data.mensagem,1000);
                     setTimeout(function(){
                       location = "sucesso.html";
@@ -112,6 +116,7 @@ function enviarForm(data){
 
 
                 }else{
+                    $(".loading-animation").addClass('hide');
                     msgErro(data.mensagem,1000);
                 }
             }

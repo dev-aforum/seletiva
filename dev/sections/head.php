@@ -6,7 +6,14 @@
 
     <meta charset="utf-8">
 
-    <title>FORUM MODEL SELETIVA</title>
+    <title>Seletiva Forum Model - São Bento do Sul</title>
+
+    <!-- SEO TAGS -->
+    <meta name="Keywords" content="forum, forum model, forum models, modelos, modelos curitiba, modelo passarela, casting, seleção de modelos, como ser modelo, formação de casting, new face, modelo feminino, modelo masculino, modelo infantil, new face curitiba, modelo curitiba, agencia de modelos, agencia de modelo, agencia new face, modelo infantil curitiba, modelo masculino santa catarina, modelo faminino santa catarina, seja forum, sejaforum, SEJA FORUM">
+    <meta name="Description" content="A seletiva de modelos da Forum Model em São Bento do Sul é a forma ideal de encontrar talentos fashion e publicitários" />
+    <meta http-equiv="EXPIRES" content="Sat, 01 Jan 2000 11:12:01 GMT" />
+    <meta http-equiv="PRAGMA" content="NO-CACHE" />
+    <meta name="robots" content="index, follow" />
 
     <!-- style -->
     <link rel="stylesheet" href="styles/index.css">
@@ -46,3 +53,25 @@
 
   </head>
   <body class="">
+
+
+    <!-- load animation, tirada de http://cssload.net/ -->
+  <div class="loading-animation hide">
+    <div class="windows8">
+    	<div class="wBall" id="wBall_1">
+    		<div class="wInnerBall"></div>
+    	</div>
+    	<div class="wBall" id="wBall_2">
+    		<div class="wInnerBall"></div>
+    	</div>
+    	<div class="wBall" id="wBall_3">
+    		<div class="wInnerBall"></div>
+    	</div>
+    	<div class="wBall" id="wBall_4">
+    		<div class="wInnerBall"></div>
+    	</div>
+    	<div class="wBall" id="wBall_5">
+    		<div class="wInnerBall"></div>
+    	</div>
+    </div>
+  </div>

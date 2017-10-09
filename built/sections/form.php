@@ -14,7 +14,7 @@
 
           <div class="form_upload_img_imagePreviewContainer">
             <label  class="form_fakeButton form_upload_img_label text" for="form_inscription_imgup1" id="form_upload_button_fakeButton1">Adcionar foto</label>
-            <input class="form_upload required" type="file" name="photo" id="form_inscription_imgup1" alt="Foto de corpo">
+            <input class="form_upload" type="file" name="photo" id="form_inscription_imgup1" alt="Foto de corpo">
             <div class="form_upload_img_imagePreview" id="form_inscription_imgPreview1"></div>
           </div>
           <!-- <div class="form_upload_img_imagePreviewContainer">
@@ -82,7 +82,7 @@
           </fieldset>
 
             <input type="hidden" id="indicacao" name="indicacao" value="8"/>
-            <input type="hidden" id="numero_unidade" name="numero_unidade" value="7"/> 
+            <input type="hidden" id="numero_unidade" name="numero_unidade" value="8"/>
 
         <button id="btn-sm-scouter" name="button" class="subtitle3 btn-sm" onclick="_gaq.push([‘_trackEvent’, ‘Seletiva’, ‘clique’, ‘Joinville’, true]);">Enviar</button>
 
